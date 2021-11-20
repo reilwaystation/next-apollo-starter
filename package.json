@@ -1,5 +1,5 @@
 {
-  "name": "codeygo",
+  "name": "next-apollo-client",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,11 +8,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.17",
+    "deepmerge": "^4.2.2",
+    "graphql": "^16.0.1",
+    "lodash": "^4.17.21",
     "next": "12.0.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/deepmerge": "^2.2.0",
+    "@types/lodash": "^4.14.177",
     "@types/node": "16.11.9",
     "@types/react": "17.0.35",
     "eslint": "7",
